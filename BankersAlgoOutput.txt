@@ -1,0 +1,58 @@
+
+ The process to be run are :
+        P0              P1              P2              P3              P4
+
+ The resources to be given are :
+        R0              R1              R2              R3
+ The maximum resources in the system are :
+        R0              R1              R2              R3
+        8               5               9               7
+ The Maximum resources that can be allocated to the processes in the system are :
+        R0              R1              R2              R3
+ P0     3               2               1               4
+ P1     0               2               5               2
+ P2     5               1               0               5
+ P3     1               5               3               0
+ P4     3               0               3               3
+ The allocated resources for each of the processes in the system are :
+        R0              R1              R2              R3
+ P0     2               0               1               1
+ P1     0               1               2               1
+ P2     4               0               0               3
+ P3     0               2               1               0
+ P4     1               0               3               0
+ The total available resource in system are :
+        R0              R1              R2              R3
+        1               2               2               2
+ Executing process P0 is UNSAFE. Delay execution of P0.
+
+ Executing process P1 is UNSAFE. Delay execution of P1.
+
+ Executing process P2 is SAFE. Completing execution of P2
+
+ The total available resource in system are after P2 completed:
+        R0              R1              R2              R3
+        5               2               2               5
+ Executing process P0 is SAFE. Completing execution of P0
+
+ The total available resource in system are after P0 completed:
+        R0              R1              R2              R3
+        7               2               3               6
+ Executing process P1 is SAFE. Completing execution of P1
+
+ The total available resource in system are after P1 completed:
+        R0              R1              R2              R3
+        7               3               5               7
+ Executing process P3 is SAFE. Completing execution of P3
+
+ The total available resource in system are after P3 completed:
+        R0              R1              R2              R3
+        7               5               6               7
+ Executing process P4 is SAFE. Completing execution of P4
+
+ The total available resource in system are after P4 completed:
+        R0              R1              R2              R3
+        8               5               9               7
+ The order of execution for all the processes using Banker's Algorithm is :
+ P2      P0      P1      P3      P4
+Press any key to continue
